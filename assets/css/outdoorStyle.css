@@ -1,0 +1,184 @@
+/* body css starts here */
+@media screen and (max-width: 1100px){
+ body { 
+   background: url("../images/img2.jpg");
+   background-position: center center;
+   background-size: auto;
+   background-repeat: none;
+   
+ }
+   .slider {
+     display:none;
+   }
+
+   .translucent-form-overlay{
+     position:relative;
+     top: 60px;
+   }
+
+ 
+}
+
+
+.logo{
+  top:15px;
+  position:relative;
+}
+
+header {
+  position: fixed;
+  top: -20px;
+  background-image: url(../images/white-waves.png);
+  text-align: center;
+  width: 100vw;
+  /* height: 20vh; */
+  padding: 15px;
+  border-bottom: 2px solid darkgray; 
+  font-family: 'Times New Roman', Times, serif; 
+  z-index: 1;
+}
+
+
+
+
+
+img.myslides {
+  height: 100vh;
+  width: 100vw;
+   position: fixed;
+}
+
+.slider {
+    z-index: -1;
+    position:fixed;
+    /* bottom: 50px; */
+  
+}
+
+.hero-full-screen {
+    height: 70vh;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+        justify-content: space-between;
+    background-size: cover;
+    padding: 5%;
+    position: relative;
+    top: 10vh;
+    z-index: 0;
+  }
+
+  .hero-full-screen .middle-content-section {
+    text-align: center;
+    color: #fefefe;
+  }
+  
+  .hero-full-screen .top-content-section {
+    width: 100%;
+  }
+  
+  .hero-full-screen .bottom-content-section {
+    padding: 1rem;
+  }
+  
+  .hero-full-screen .bottom-content-section svg {
+    height: 3.75rem;
+    width: 3.75rem;
+    fill: #fefefe;
+  }
+  
+  .hero-full-screen .top-bar {
+    background: transparent;
+  }
+  
+  .hero-full-screen .top-bar .menu {
+    background: transparent;
+  }
+  
+  .hero-full-screen .top-bar .menu-text {
+    color: #fefefe;
+  }
+  
+  .hero-full-screen .top-bar .menu li {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .hero-full-screen .top-bar .menu a {
+    color: #fefefe;
+    font-weight: bold;
+  }
+
+  /* overlay starts here */
+
+  .translucent-form-overlay {
+    max-width: 75vw;
+    width: 100%;
+    background-color: rgba(54, 54, 54, 0.8);
+    padding: 20px;
+    color: #fefefe;
+  }
+  
+  .translucent-form-overlay .columns.row {
+    display: block;
+  }
+  
+  .translucent-form-overlay h3, .translucent-form-overlay label {
+      text-align:left;
+    color: #fefefe;
+  }
+  
+  .translucent-form-overlay input, .translucent-form-overlay select {
+    color: #8a8a8a;
+  }
+  
+  .translucent-form-overlay input::-webkit-input-placeholder {
+    color: #8a8a8a;
+  }
+  
+  .translucent-form-overlay input:-ms-input-placeholder {
+    color: #8a8a8a;
+  }
+  
+  .translucent-form-overlay input::placeholder {
+    color: #8a8a8a;
+  }
+
+  button {
+    position: relative;
+  }
+  
+
+  /*Footer begins here*/
+  
+  footer {
+    position: fixed;
+    bottom: 0px;
+    background-image: url(../images/white-waves.png);
+    text-align: center;
+    width: 100%;
+    /* height: 10vh; */
+    /* padding: 10px; */
+    border-top: 2px solid darkgray; 
+    font-family: 'Times New Roman', Times, serif; 
+  }
+
+
+  
+  
+  
+  
+  
+  
